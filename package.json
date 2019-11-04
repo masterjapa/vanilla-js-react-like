@@ -1,0 +1,27 @@
+{
+  "name": "fancy-data-binding",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "webpack-cli",
+    "start:dev": "NODE_ENV=development webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-jsx-pragmatic": "^1.0.2",
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "vanilla-js-pragma": "^1.0.1",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.0",
+    "webpack-dev-server": "^3.1.0"
+  }
+}
